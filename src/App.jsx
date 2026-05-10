@@ -181,6 +181,7 @@ function App() {
       </section>
 
       <section className="section">
+        <h2>Projects</h2>
         <div className="project-grid">
           <div className="project-card">
             <h3>Extended ECM for SAP SuccessFactors</h3>
