@@ -7,6 +7,7 @@ import {
   FaJava,
   FaPhone,
   FaEnvelope,
+  FaDownload,
 } from 'react-icons/fa'
 
 import {
@@ -51,8 +52,15 @@ function App() {
               <FaLinkedin /> LinkedIn
             </a>
 
-            <a href="https://github.com" target="_blank">
+            <a href="https://github.com/ramadurgarao" target="_blank">
               <FaGithub /> GitHub
+            </a>
+
+            <a
+              href="https://drive.google.com/uc?export=download&id=1iaO8cNZ3_A8gFfwPI2oBmkCv1TOIaPFI"
+              className="px-6 py-3 rounded-2xl bg-emerald-500 hover:bg-emerald-400 transition"
+            >
+              <FaDownload /> Resume
             </a>
           </div>
         </div>
